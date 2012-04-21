@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCF2E1B154348D300B7970A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF2E1A154348D300B7970A /* Cocoa.framework */; };
+		DFCF2E25154348D300B7970A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCF2E23154348D300B7970A /* InfoPlist.strings */; };
+		DFCF2E27154348D300B7970A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF2E26154348D300B7970A /* main.m */; };
+		DFCF2E2B154348D300B7970A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DFCF2E29154348D300B7970A /* Credits.rtf */; };
+		DFCF2E2E154348D300B7970A /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF2E2D154348D300B7970A /* ECAppDelegate.m */; };
+		DFCF2E31154348D400B7970A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCF2E2F154348D400B7970A /* MainMenu.xib */; };
+		DFCF2E39154348D400B7970A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF2E38154348D400B7970A /* SenTestingKit.framework */; };
+		DFCF2E3A154348D400B7970A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF2E1A154348D300B7970A /* Cocoa.framework */; };
+		DFCF2E42154348D400B7970A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCF2E40154348D400B7970A /* InfoPlist.strings */; };
+		DFCF2E45154348D400B7970A /* EasyCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF2E44154348D400B7970A /* EasyCopyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCF2E3B154348D400B7970A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCF2E0D154348D300B7970A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCF2E15154348D300B7970A;
+			remoteInfo = EasyCopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFCF2E16154348D300B7970A /* EasyCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCF2E1A154348D300B7970A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DFCF2E1D154348D300B7970A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DFCF2E1E154348D300B7970A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFCF2E1F154348D300B7970A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFCF2E22154348D300B7970A /* EasyCopy-Info.plist */ = {isa = PBXFileReference; path = "EasyCopy-Info.plist"; sourceTree = "<group>"; };
+		DFCF2E24154348D300B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFCF2E26154348D300B7970A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFCF2E28154348D300B7970A /* EasyCopy-Prefix.pch */ = {isa = PBXFileReference; path = "EasyCopy-Prefix.pch"; sourceTree = "<group>"; };
+		DFCF2E2A154348D300B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DFCF2E2C154348D300B7970A /* ECAppDelegate.h */ = {isa = PBXFileReference; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		DFCF2E2D154348D300B7970A /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
+		DFCF2E30154348D400B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFCF2E37154348D400B7970A /* EasyCopyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCopyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCF2E38154348D400B7970A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFCF2E3F154348D400B7970A /* EasyCopyTests-Info.plist */ = {isa = PBXFileReference; path = "EasyCopyTests-Info.plist"; sourceTree = "<group>"; };
+		DFCF2E41154348D400B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFCF2E43154348D400B7970A /* EasyCopyTests.h */ = {isa = PBXFileReference; path = EasyCopyTests.h; sourceTree = "<group>"; };
+		DFCF2E44154348D400B7970A /* EasyCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCopyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCF2E13154348D300B7970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E1B154348D300B7970A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCF2E33154348D400B7970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E39154348D400B7970A /* SenTestingKit.framework in Frameworks */,
+				DFCF2E3A154348D400B7970A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCF2E0B154348D300B7970A = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E20154348D300B7970A /* EasyCopy */,
+				DFCF2E3D154348D400B7970A /* EasyCopyTests */,
+				DFCF2E19154348D300B7970A /* Frameworks */,
+				DFCF2E17154348D300B7970A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCF2E17154348D300B7970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E16154348D300B7970A /* EasyCopy.app */,
+				DFCF2E37154348D400B7970A /* EasyCopyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCF2E19154348D300B7970A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E1A154348D300B7970A /* Cocoa.framework */,
+				DFCF2E38154348D400B7970A /* SenTestingKit.framework */,
+				DFCF2E1C154348D300B7970A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCF2E1C154348D300B7970A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E1D154348D300B7970A /* AppKit.framework */,
+				DFCF2E1E154348D300B7970A /* CoreData.framework */,
+				DFCF2E1F154348D300B7970A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DFCF2E20154348D300B7970A /* EasyCopy */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E2C154348D300B7970A /* ECAppDelegate.h */,
+				DFCF2E2D154348D300B7970A /* ECAppDelegate.m */,
+				DFCF2E2F154348D400B7970A /* MainMenu.xib */,
+				DFCF2E21154348D300B7970A /* Supporting Files */,
+			);
+			path = EasyCopy;
+			sourceTree = "<group>";
+		};
+		DFCF2E21154348D300B7970A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E22154348D300B7970A /* EasyCopy-Info.plist */,
+				DFCF2E23154348D300B7970A /* InfoPlist.strings */,
+				DFCF2E26154348D300B7970A /* main.m */,
+				DFCF2E28154348D300B7970A /* EasyCopy-Prefix.pch */,
+				DFCF2E29154348D300B7970A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCF2E3D154348D400B7970A /* EasyCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E43154348D400B7970A /* EasyCopyTests.h */,
+				DFCF2E44154348D400B7970A /* EasyCopyTests.m */,
+				DFCF2E3E154348D400B7970A /* Supporting Files */,
+			);
+			path = EasyCopyTests;
+			sourceTree = "<group>";
+		};
+		DFCF2E3E154348D400B7970A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF2E3F154348D400B7970A /* EasyCopyTests-Info.plist */,
+				DFCF2E40154348D400B7970A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCF2E15154348D300B7970A /* EasyCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCF2E48154348D400B7970A /* Build configuration list for PBXNativeTarget "EasyCopy" */;
+			buildPhases = (
+				DFCF2E12154348D300B7970A /* Sources */,
+				DFCF2E13154348D300B7970A /* Frameworks */,
+				DFCF2E14154348D300B7970A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyCopy;
+			productName = EasyCopy;
+			productReference = DFCF2E16154348D300B7970A /* EasyCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCF2E36154348D400B7970A /* EasyCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCF2E4B154348D400B7970A /* Build configuration list for PBXNativeTarget "EasyCopyTests" */;
+			buildPhases = (
+				DFCF2E32154348D400B7970A /* Sources */,
+				DFCF2E33154348D400B7970A /* Frameworks */,
+				DFCF2E34154348D400B7970A /* Resources */,
+				DFCF2E35154348D400B7970A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCF2E3C154348D400B7970A /* PBXTargetDependency */,
+			);
+			name = EasyCopyTests;
+			productName = EasyCopyTests;
+			productReference = DFCF2E37154348D400B7970A /* EasyCopyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCF2E0D154348D300B7970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DFCF2E10154348D300B7970A /* Build configuration list for PBXProject "EasyCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFCF2E0B154348D300B7970A;
+			productRefGroup = DFCF2E17154348D300B7970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCF2E15154348D300B7970A /* EasyCopy */,
+				DFCF2E36154348D400B7970A /* EasyCopyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCF2E14154348D300B7970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E25154348D300B7970A /* InfoPlist.strings in Resources */,
+				DFCF2E2B154348D300B7970A /* Credits.rtf in Resources */,
+				DFCF2E31154348D400B7970A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCF2E34154348D400B7970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E42154348D400B7970A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCF2E35154348D400B7970A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCF2E12154348D300B7970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E27154348D300B7970A /* main.m in Sources */,
+				DFCF2E2E154348D300B7970A /* ECAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCF2E32154348D400B7970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCF2E45154348D400B7970A /* EasyCopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFCF2E3C154348D400B7970A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCF2E15154348D300B7970A /* EasyCopy */;
+			targetProxy = DFCF2E3B154348D400B7970A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFCF2E23154348D300B7970A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCF2E24154348D300B7970A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFCF2E29154348D300B7970A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCF2E2A154348D300B7970A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DFCF2E2F154348D400B7970A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCF2E30154348D400B7970A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DFCF2E40154348D400B7970A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCF2E41154348D400B7970A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCF2E46154348D400B7970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFCF2E47154348D400B7970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFCF2E49154348D400B7970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyCopy/EasyCopy-Prefix.pch";
+				INFOPLIST_FILE = "EasyCopy/EasyCopy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFCF2E4A154348D400B7970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyCopy/EasyCopy-Prefix.pch";
+				INFOPLIST_FILE = "EasyCopy/EasyCopy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFCF2E4C154348D400B7970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyCopy.app/Contents/MacOS/EasyCopy";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyCopy/EasyCopy-Prefix.pch";
+				INFOPLIST_FILE = "EasyCopyTests/EasyCopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DFCF2E4D154348D400B7970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyCopy.app/Contents/MacOS/EasyCopy";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyCopy/EasyCopy-Prefix.pch";
+				INFOPLIST_FILE = "EasyCopyTests/EasyCopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCF2E10154348D300B7970A /* Build configuration list for PBXProject "EasyCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCF2E46154348D400B7970A /* Debug */,
+				DFCF2E47154348D400B7970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCF2E48154348D400B7970A /* Build configuration list for PBXNativeTarget "EasyCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCF2E49154348D400B7970A /* Debug */,
+				DFCF2E4A154348D400B7970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFCF2E4B154348D400B7970A /* Build configuration list for PBXNativeTarget "EasyCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCF2E4C154348D400B7970A /* Debug */,
+				DFCF2E4D154348D400B7970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCF2E0D154348D300B7970A /* Project object */;
+}
