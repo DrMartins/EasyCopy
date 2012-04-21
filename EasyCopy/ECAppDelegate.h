@@ -11,5 +11,8 @@
 @interface ECAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButton *myButton;
+
+- (IBAction)onButtonPress:(NSButton *)sender;
 
 @end

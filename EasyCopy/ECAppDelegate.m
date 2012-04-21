@@ -11,6 +11,11 @@
 @implementation ECAppDelegate
 
 @synthesize window = _window;
+@synthesize myButton = _myButton;
+
+- (IBAction)onButtonPress:(NSButton *)sender{
+    [self.myButton setTitleWithMnemonic: @"Attacke"];
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
