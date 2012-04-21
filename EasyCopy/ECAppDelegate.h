@@ -7,10 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ECSimpleModel.h"
 
 @interface ECAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain, nonatomic) ECSimpleModel* model; //nonatomic = not treadsave...
 @property (weak) IBOutlet NSButton *myButton;
 
 - (IBAction)onButtonPress:(NSButton *)sender;

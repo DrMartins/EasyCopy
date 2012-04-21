@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912462B6154373AE0065295B /* ECSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 912462B5154373AE0065295B /* ECSimpleModel.m */; };
 		DFCF2E1B154348D300B7970A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF2E1A154348D300B7970A /* Cocoa.framework */; };
 		DFCF2E25154348D300B7970A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCF2E23154348D300B7970A /* InfoPlist.strings */; };
 		DFCF2E27154348D300B7970A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF2E26154348D300B7970A /* main.m */; };
@@ -30,24 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		912462B4154373AE0065295B /* ECSimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ECSimpleModel.h; sourceTree = "<group>"; };
+		912462B5154373AE0065295B /* ECSimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSimpleModel.m; sourceTree = "<group>"; };
 		DFCF2E16154348D300B7970A /* EasyCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF2E1A154348D300B7970A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DFCF2E1D154348D300B7970A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DFCF2E1E154348D300B7970A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DFCF2E1F154348D300B7970A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DFCF2E22154348D300B7970A /* EasyCopy-Info.plist */ = {isa = PBXFileReference; path = "EasyCopy-Info.plist"; sourceTree = "<group>"; };
+		DFCF2E22154348D300B7970A /* EasyCopy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyCopy-Info.plist"; sourceTree = "<group>"; };
 		DFCF2E24154348D300B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFCF2E26154348D300B7970A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFCF2E28154348D300B7970A /* EasyCopy-Prefix.pch */ = {isa = PBXFileReference; path = "EasyCopy-Prefix.pch"; sourceTree = "<group>"; };
+		DFCF2E28154348D300B7970A /* EasyCopy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyCopy-Prefix.pch"; sourceTree = "<group>"; };
 		DFCF2E2A154348D300B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DFCF2E2C154348D300B7970A /* ECAppDelegate.h */ = {isa = PBXFileReference; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		DFCF2E2C154348D300B7970A /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
 		DFCF2E2D154348D300B7970A /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
 		DFCF2E30154348D400B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DFCF2E37154348D400B7970A /* EasyCopyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCopyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF2E38154348D400B7970A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DFCF2E3F154348D400B7970A /* EasyCopyTests-Info.plist */ = {isa = PBXFileReference; path = "EasyCopyTests-Info.plist"; sourceTree = "<group>"; };
+		DFCF2E3F154348D400B7970A /* EasyCopyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyCopyTests-Info.plist"; sourceTree = "<group>"; };
 		DFCF2E41154348D400B7970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DFCF2E43154348D400B7970A /* EasyCopyTests.h */ = {isa = PBXFileReference; path = EasyCopyTests.h; sourceTree = "<group>"; };
+		DFCF2E43154348D400B7970A /* EasyCopyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCopyTests.h; sourceTree = "<group>"; };
 		DFCF2E44154348D400B7970A /* EasyCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCopyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +121,8 @@
 				DFCF2E2D154348D300B7970A /* ECAppDelegate.m */,
 				DFCF2E2F154348D400B7970A /* MainMenu.xib */,
 				DFCF2E21154348D300B7970A /* Supporting Files */,
+				912462B4154373AE0065295B /* ECSimpleModel.h */,
+				912462B5154373AE0065295B /* ECSimpleModel.m */,
 			);
 			path = EasyCopy;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				DFCF2E27154348D300B7970A /* main.m in Sources */,
 				DFCF2E2E154348D300B7970A /* ECAppDelegate.m in Sources */,
+				912462B6154373AE0065295B /* ECSimpleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +442,7 @@
 				DFCF2E4A154348D400B7970A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCF2E4B154348D400B7970A /* Build configuration list for PBXNativeTarget "EasyCopyTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +451,7 @@
 				DFCF2E4D154348D400B7970A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

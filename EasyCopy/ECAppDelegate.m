@@ -12,9 +12,21 @@
 
 @synthesize window = _window;
 @synthesize myButton = _myButton;
+@synthesize model = _model;
+
+
+- (ECSimpleModel*) model
+{
+    if (!_model) {
+        _model = [[ECSimpleModel alloc] init];
+    }
+    assert(_model);
+    return _model;
+}
 
 - (IBAction)onButtonPress:(NSButton *)sender{
     [self.myButton setTitleWithMnemonic: @"Attacke"];
+    [self.model doSomething];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
